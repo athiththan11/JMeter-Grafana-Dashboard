@@ -27,8 +27,8 @@
     "editable": true,
     "gnetId": null,
     "graphTooltip": 0,
-    "id": 5,
-    "iteration": 1609062985842,
+    "id": 1,
+    "iteration": 1609141801789,
     "links": [],
     "panels": [
         {
@@ -1322,8 +1322,8 @@
             "scopedVars": {
                 "Datasource": {
                     "selected": true,
-                    "text": "JMeter Demo",
-                    "value": "JMeter Demo"
+                    "text": "JMeter-InfluxDB",
+                    "value": "JMeter-InfluxDB"
                 }
             },
             "title": "Transaction: $Transaction",
@@ -1379,8 +1379,8 @@
             "scopedVars": {
                 "Datasource": {
                     "selected": true,
-                    "text": "JMeter Demo",
-                    "value": "JMeter Demo"
+                    "text": "JMeter-InfluxDB",
+                    "value": "JMeter-InfluxDB"
                 }
             },
             "seriesOverrides": [],
@@ -1524,8 +1524,8 @@
             "scopedVars": {
                 "Datasource": {
                     "selected": true,
-                    "text": "JMeter Demo",
-                    "value": "JMeter Demo"
+                    "text": "JMeter-InfluxDB",
+                    "value": "JMeter-InfluxDB"
                 }
             },
             "targets": [
@@ -1628,8 +1628,8 @@
             "scopedVars": {
                 "Datasource": {
                     "selected": true,
-                    "text": "JMeter Demo",
-                    "value": "JMeter Demo"
+                    "text": "JMeter-InfluxDB",
+                    "value": "JMeter-InfluxDB"
                 }
             },
             "targets": [
@@ -1727,8 +1727,8 @@
             "scopedVars": {
                 "Datasource": {
                     "selected": true,
-                    "text": "JMeter Demo",
-                    "value": "JMeter Demo"
+                    "text": "JMeter-InfluxDB",
+                    "value": "JMeter-InfluxDB"
                 }
             },
             "seriesOverrides": [],
@@ -2039,7 +2039,7 @@
                 "h": 1,
                 "w": 24,
                 "x": 0,
-                "y": 280
+                "y": 56
             },
             "id": 41,
             "panels": [],
@@ -2079,7 +2079,7 @@
                 "h": 6,
                 "w": 3,
                 "x": 0,
-                "y": 281
+                "y": 57
             },
             "id": 33,
             "interval": "[[Interval]]s",
@@ -2164,7 +2164,7 @@
                 "h": 9,
                 "w": 11,
                 "x": 3,
-                "y": 281
+                "y": 57
             },
             "hiddenSeries": false,
             "id": 35,
@@ -2342,7 +2342,7 @@
                 "h": 9,
                 "w": 10,
                 "x": 14,
-                "y": 281
+                "y": 57
             },
             "hiddenSeries": false,
             "id": 37,
@@ -2495,7 +2495,7 @@
                 "h": 9,
                 "w": 11,
                 "x": 3,
-                "y": 290
+                "y": 66
             },
             "hiddenSeries": false,
             "id": 39,
@@ -2630,7 +2630,7 @@
                 "h": 9,
                 "w": 10,
                 "x": 14,
-                "y": 290
+                "y": 66
             },
             "hiddenSeries": false,
             "id": 43,
@@ -2743,7 +2743,7 @@
             }
         }
     ],
-    "refresh": false,
+    "refresh": "5s",
     "schemaVersion": 26,
     "style": "dark",
     "tags": [
@@ -2755,8 +2755,8 @@
             {
                 "current": {
                     "selected": false,
-                    "text": "JMeter Demo",
-                    "value": "JMeter Demo"
+                    "text": "JMeter-InfluxDB",
+                    "value": "JMeter-InfluxDB"
                 },
                 "error": null,
                 "hide": 0,
@@ -2776,8 +2776,8 @@
                 "allValue": null,
                 "current": {
                     "selected": false,
-                    "text": "Express Application",
-                    "value": "Express Application"
+                    "text": "Mock Application",
+                    "value": "Mock Application"
                 },
                 "datasource": "$Datasource",
                 "definition": "",
@@ -2916,12 +2916,12 @@
         ]
     },
     "time": {
-        "from": "2020-12-27T08:52:44.080Z",
-        "to": "2020-12-27T08:54:03.434Z"
+        "from": "now-5m",
+        "to": "now"
     },
     "timepicker": {},
     "timezone": "",
     "title": "JMeter Dashboard",
     "uid": "JoimW0xMk",
-    "version": 43
+    "version": 2
 }
