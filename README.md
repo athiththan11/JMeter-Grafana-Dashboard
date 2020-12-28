@@ -62,7 +62,7 @@ Once the `jmeter_influx` DB is created successfully, sign-in to the Grafana Dash
 
 ### JMeter
 
-Next, configure the JMeter to send the performance metrices to the InfluxDB while performing a load test in your environment. This repo contains a simple sample JMeter script [attached](JMeter%20Script/grafana-mock-test.jmx).
+Next, configure the JMeter to send the performance metrics to the InfluxDB while performing a load test in your environment. This repo contains a simple sample JMeter script [attached](JMeter%20Script/grafana-mock-test.jmx).
 
 Perform the following to configure InfluxDB Backend Listener in JMeter
 
@@ -85,7 +85,7 @@ Once the load test is executed, navigate to the Grafana Dashboard and open our `
 - The Application name
 - The Transaction
 
-to view the performance metrices in realtime.
+to view the performance metrics in realtime.
 
 ## References
 
